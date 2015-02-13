@@ -24,4 +24,8 @@
   return lastObject;
 }
 
+- (void)reset {
+  [self removeAllObjects];
+}
+
 @end
