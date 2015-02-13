@@ -8,7 +8,7 @@ Example:
     [q push:@"object1"];
     [q push:@"object2"];
 
-    // print them
+    // Pop objects
     NSLog(@"%@", [q dequeue] );
     NSLog(@"%@", [q dequeue] );
 
