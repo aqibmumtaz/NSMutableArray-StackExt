@@ -8,10 +8,7 @@ Example:
 
 [q push:@"object1"];
 
-[q push:@"object2"];
 
 // pop objects
-
-NSLog(@"%@", [q pop] );
 
 NSLog(@"%@", [q pop] );
