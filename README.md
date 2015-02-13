@@ -4,11 +4,13 @@ Simple addition to NSMutableArray which gives you a Stack implementation. Use pu
 
 Example:
 
-// push objects
+    // Push objects
+    [q push:@"object1"];
+    [q push:@"object2"];
 
-[q push:@"object1"];
+    // print them
+    NSLog(@"%@", [q dequeue] );
+    NSLog(@"%@", [q dequeue] );
 
 
-// pop objects
 
-NSLog(@"%@", [q pop] );
